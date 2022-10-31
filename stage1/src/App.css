@@ -7,6 +7,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 1rem;
+  border: 3px solid purple;
 }
 .profile {
   text-align: center;
@@ -36,4 +38,12 @@ img {
   justify-content: center;
   row-gap: 2rem;
   text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  padding: 20px 8px;
+  background: #e3e3e3;
+  width: 100%;
+  border-radius: 10px;
 }
