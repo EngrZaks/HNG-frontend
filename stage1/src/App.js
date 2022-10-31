@@ -8,7 +8,7 @@ function App() {
           <img src={image} alt="Zaks display" id="profile__img" />
         </div>
         <p id="twitter">@Engr_zaks</p>
-        <p id="slack">Dev.Zaks</p>
+        <p id="slack">DevZaks</p>
       </section>
 
       <section className="links">
@@ -34,7 +34,7 @@ function App() {
         <a
           className="link"
           id="book__python"
-          href="https://books.zuri.team/python-for-beginners?ref_id=Dev.Zaks"
+          href="https://books.zuri.team/python-for-beginners?ref_id=DevZaks"
           target="_blank"
           rel="noreferrer"
           title="python for beginners book"
