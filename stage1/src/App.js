@@ -1,21 +1,66 @@
 import "./App.css";
-
+import image from "./assets/zaks.jpg";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <section className="profile">
+        <img src={image} alt="Zaks display" id="profile__img" />
+        <p id="twitter">@Engr_zaks</p>
+        <p id="slack"></p>
+      </section>
+
+      <section className="links">
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="link"
+          id="btn__zuri"
+          href="https://training.zuri.team/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          Zuri training
         </a>
-      </header>
+        <a
+          className="link"
+          id="books"
+          href="http://books.zuri.team"
+          target="_blank"
+          rel="noreferrer"
+          title="this is where you find books about design and coding"
+        >
+          This is where you find books about design and coding
+        </a>
+        <a
+          className="link"
+          id="book__python"
+          href="https://books.zuri.team/python-for-beginners?ref_id=Dev.Zaks"
+          target="_blank"
+          rel="noreferrer"
+          title="python for beginners book"
+        >
+          Buy python for beginners
+        </a>
+        <a
+          className="link"
+          id="pitch"
+          href="https://background.zuri.team"
+          target="_blank"
+          rel="noreferrer"
+          title="background check"
+        >
+          Checking the background of your coder before a gig has never been
+          easier
+        </a>
+        <a
+          className="link"
+          id="book__design"
+          href="https://books.zuri.team/design-rules"
+          target="_blank"
+          rel="noreferrer"
+          title="background check"
+        >
+          Grab the best design book in town for FREE
+        </a>
+      </section>
     </div>
   );
 }
