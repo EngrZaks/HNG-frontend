@@ -4,7 +4,9 @@ function App() {
   return (
     <div className="App">
       <section className="profile">
-        <img src={image} alt="Zaks display" id="profile__img" />
+        <div className="image">
+          <img src={image} alt="Zaks display" id="profile__img" />
+        </div>
         <p id="twitter">@Engr_zaks</p>
         <p id="slack"></p>
       </section>
