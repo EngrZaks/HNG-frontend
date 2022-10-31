@@ -28,3 +28,12 @@ img {
 #slack {
   display: none;
 }
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+  text-align: center;
+}
