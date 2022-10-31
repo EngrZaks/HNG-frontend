@@ -8,7 +8,7 @@ function App() {
           <img src={image} alt="Zaks display" id="profile__img" />
         </div>
         <p id="twitter">@Engr_zaks</p>
-        <p id="slack"></p>
+        <p id="slack">Dev.Zaks</p>
       </section>
 
       <section className="links">
