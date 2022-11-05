@@ -1,6 +1,7 @@
 import "./home.scss";
 import image from "../../assets/zaks.jpg";
 import Footer from "../footer/footer";
+import { BsGithub, BsSlack } from "react-icons/bs";
 function Home() {
   return (
     <div className="home">
@@ -74,6 +75,14 @@ function Home() {
         </a>
         <a className="link" href="/contact">
           Contact Me
+        </a>
+      </section>
+      <section className="icons">
+        <a href="https://hng9.slack.com" target="_blank" rel="noreferrer">
+          <BsSlack />
+        </a>
+        <a href="https://github.com/EngrZaks" target="_blank" rel="noreferrer">
+          <BsGithub />
         </a>
       </section>
       <Footer />
