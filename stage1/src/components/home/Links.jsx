@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Links() {
   return (
@@ -61,9 +62,7 @@ function Links() {
       >
         Grab the best design book in town for FREE
       </a>
-      <a className="link" href="/contact">
-        Contact Me
-      </a>
+      <Link to="/contact">Contact Me</Link>
     </section>
   );
 }
