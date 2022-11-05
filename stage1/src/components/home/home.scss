@@ -1,4 +1,4 @@
-.App {
+.home {
   /* box-sizing: border-box; */
   width: 100%;
   /* max-width: 800px; */
@@ -7,14 +7,14 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 .profile {
   text-align: center;
 }
 .image {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 img {
   border-radius: 50%;
@@ -25,18 +25,21 @@ img {
 #twitter {
   font-weight: bold;
   font-size: 1.5rem;
+  padding: 10px;
 }
 #slack {
   display: none;
 }
 
 .links {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   row-gap: 2rem;
   text-align: center;
+  width: 90%;
 }
 
 .link {
@@ -44,5 +47,9 @@ img {
   padding: 20px 8px;
   background: #e3e3e3;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 8px;
+}
+.link:hover {
+  transition: all 0.3s ease-in;
+  transform: scale(1.05);
 }

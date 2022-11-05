@@ -2,7 +2,7 @@ import "./home.scss";
 import image from "../../assets/zaks.jpg";
 function Home() {
   return (
-    <div className="App">
+    <div className="home">
       <section className="profile">
         <div className="image">
           <img src={image} alt="Zaks display" id="profile__img" />
