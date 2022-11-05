@@ -1,5 +1,6 @@
 import "./home.scss";
 import image from "../../assets/zaks.jpg";
+import Footer from "../footer/footer";
 function Home() {
   return (
     <div className="home">
@@ -75,6 +76,7 @@ function Home() {
           Contact Me
         </a>
       </section>
+      <Footer />
     </div>
   );
 }
