@@ -1,6 +1,6 @@
-import "./App.css";
-import image from "./assets/zaks.jpg";
-function App() {
+import "./home.scss";
+import image from "../../assets/zaks.jpg";
+function Home() {
   return (
     <div className="App">
       <section className="profile">
@@ -67,4 +67,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
