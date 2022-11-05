@@ -62,7 +62,7 @@ function Links() {
       >
         Grab the best design book in town for FREE
       </a>
-      <Link to="/contact" className="link">
+      <Link id="contact" to="/contact" className="link">
         Contact Me
       </Link>
     </section>
