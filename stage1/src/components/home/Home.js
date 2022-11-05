@@ -14,6 +14,15 @@ function Home() {
       <section className="links">
         <a
           className="link"
+          id="btn__twitter"
+          href="https://twitter.com/Engr_zaks"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Twitter
+        </a>
+        <a
+          className="link"
           id="btn__zuri"
           href="https://training.zuri.team/"
           target="_blank"
@@ -61,6 +70,9 @@ function Home() {
           title="background check"
         >
           Grab the best design book in town for FREE
+        </a>
+        <a className="link" href="/contact">
+          Contact Me
         </a>
       </section>
     </div>
