@@ -10,7 +10,7 @@
   padding: 0;
   border: 0 solid transparent;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 /* prevent iOS font size change */
 html {
   -webkit-text-size-adjust: 100%;
@@ -21,6 +21,7 @@ body {
   min-height: 100vh;
   line-height: 1;
   text-rendering: optimizeSpeed;
+  font-family: "Roboto", sans-serif;
 }
 
 /* all media elements set to block and full width */

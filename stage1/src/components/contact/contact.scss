@@ -1,0 +1,84 @@
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .contact-wrapper {
+    margin: 0 auto;
+    width: 97%;
+    @media screen and (min-width: 700px) {
+      width: 80%;
+    }
+  }
+  h1,
+  .contact-text,
+  form {
+    padding: 1rem 0;
+    width: 90%;
+  }
+  h1 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+  }
+  .contact-text {
+    font-size: 1.3rem;
+    font-weight: inherit;
+    line-height: 1.7rem;
+  }
+
+  form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    .name {
+      display: flex;
+      flex-direction: column;
+      @media screen and (min-width: 700px) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+    input,
+    textarea {
+      border: 1px solid #66708543;
+      border-radius: 0.3rem;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .first,
+    .last {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+      @media screen and (min-width: 700px) {
+        width: 47%;
+      }
+      input {
+        width: 100%;
+      }
+    }
+    .check {
+      text-align: left;
+      display: flex;
+      flex-direction: row-reverse;
+      column-gap: 0.5rem;
+      justify-content: flex-end;
+      input[type="checkbox"] {
+        appearance: auto;
+      }
+    }
+    label {
+      margin-bottom: 0.3rem;
+    }
+
+    button {
+      background-color: #1570ef;
+      color: #fff;
+      padding: 0.8rem;
+      border-radius: 8px;
+      margin-top: 0.6rem;
+    }
+  }
+}
