@@ -15,4 +15,16 @@
   .text {
     color: #667085;
   }
+  .zuri {
+    position: relative;
+    .dot {
+      width: 11px;
+      height: 11px;
+      background-color: red;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 3px;
+      left: 49px;
+    }
+  }
 }
